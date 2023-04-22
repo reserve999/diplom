@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>База знаний</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<!-- файлы из другого проекта -->
+
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato'>
+
+	<!-- файлы из другого проекта -->
+	<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="/assets/css/snackbar.css">
+	<!-- <link rel="stylesheet" href="/styles/reset.min.css" />
+	<link rel="stylesheet" href="/styles/style.css" />
+	<link rel="stylesheet" href="/styles/header-9.css" /> -->
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+	<!-- partial:index.partial.html -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Merriweather|Roboto+Condensed|Roboto+Mono|Roboto+Slab|Roboto:500"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+	<!-- <link href="dl.dropbox.com/s/vpi3f9s7nhpe7v7/honeybee.css" rel="stylesheet"> -->
+
+	<nav class="navbar navbar-expand-lg navbar-light aqua" style="padding: 1% 11%; font-size: 20px;">
+		<a href="/index.html" class="brand"> <img class="svg" class="imgnw" src="img/logo_cvs.svg" width="240px"
+				border="0" alt="Новые Технологии :: Системы CVS (Computer Video Security)" align="left"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="/knowledge_base/dist/knowledge_base.html">База знаний</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/contacts/contacts.php">Контакты</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="/main.php">Личный кабинет <span class="sr-only">(current)</span></a>
+				</li>
+		</div>
+	</nav>
+
+	<div id="guia" style="background: #FFFFFF; outline: 1px solid #dfdfdf; border-radius: 5px; text-align: justify;">
+		<!--
+		<div class="navi">
+			<h3>Básicos</h3>
+			<span>
+				<a href="#botoni1" class="botoniac">Disclaimer</a>
+				<a href="#botoni2">Normativa</a>
+				<a href="#botoni3">Ambientación
+					<a href="#botoni4">Guía</a>
+					<a href="#botoni5">FAQ</a>
+					<a href="#botoni6">OTRA COSA</a>
+					<a href="/">Contexto</a>
+					<a href="/">Cronología</a>
+					<a href="/">Grupos</a>
+					<a href="/">Créditos</a>
+			</span>
+			<h3>Especies</h3>
+			<span>
+				<a href="/">vampiro</a>
+				<a href="/">vampiro</a>
+				<a href="/">vampiro</a>
+				<a href="/">vampiro</a>
+				<a href="/">vampiro</a>
+				<a href="/">vampiro</a>
+			</span>
+			<h3>Folclore</h3>
+			<span>
+				<a href="/">Ciudad</a>
+				<a href="/">Bosque</a>
+				<a href="/">otro</a>
+				<a href="/">otro</a>
+				<a href="/">otro</a>
+			</span>
+		</div>
+		-->
+
+		<!-- файлы из другого проекта -->
+
+		<div class="navi">
+
+			<!-- partial:index.partial.html -->
+			<section class="nav-wrap">
+
+				<!-- start accordion nav block -->
+				<nav class="acnav" role="navigation">
+					<!-- start level 1 -->
+					<ul class="acnav__list acnav__list--level1">
+
+						<!-- start group 1 -->
+						<li class="">
+							<a class="acnav__label" href="#botoni1" class="botoniac" class="acnav__label">Введение</a>
+						</li>
+						<!-- end group 1 -->
+
+						<!-- start group 2 -->
+						<li class="">
+							<a class="acnav__label" href="#botoni2">1 - Общие положения</a>
+						</li>
+						<!-- end group 2 -->
+
+						<!-- start group 3 -->
+						<li class="has-children">
+							<a class="acnav__label" href="#botoni3">2 - Алгоритм действий</a>
+							<!-- start level 2 -->
+							<ul class="acnav__list acnav__list--level2">
+								<li>
+									<a class="acnav__link acnav__link--level2" href="#botoni4" class="botoniac">2.1 -
+										Предварительная настройка IP камер</a>
+								</li>
+
+								<li>
+									<a class="acnav__link acnav__link--level2" href="#botoni5">2.2 - Установка комплекта
+										программного
+										обеспечения</a>
+								</li>
+
+								<li>
+									<a class="acnav__link acnav__link--level2" href="#botoni6">2.3 - Добавление камер в
+										серверную
+										часть
+										комплекса</a>
+								</li>
+
+								<li>
+									<a class="acnav__link acnav__link--level2" href="#botoni7">2.4 - Настройка
+										подключения
+										датчиков
+										/
+										реле</a>
+								</li>
+
+								<li class="has-children">
+
+									<a class="acnav__label acnav__label--level2" href="#botoni8">2.5 - Настройка
+										серверной части
+										CVSCenter</a>
+
+									<!-- start level 3 -->
+									<ul class="acnav__list acnav__list--level3">
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni8">
+												2.5.1 - Лицензионные файлы для ключа защиты</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni9">2.5.2 - Создание
+												архива</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni10">2.5.3 -
+												Настройка
+												параметров
+												работы камер</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni11">2.5.4 -
+												Настройка
+												параметров
+												записи данных</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni12">2.5.5 -
+												Настройка
+												детекторов
+												движения</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni13">2.5.6 -
+												Настройка работы
+												по
+												сценарию</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni14">2.5.7 -
+												Настройка окна
+												наблюдения</a>
+										</li>
+									</ul>
+									<!-- end level 3 -->
+								</li>
+
+
+								<li class="has-children">
+
+									<a class="acnav__label acnav__label--level2" href="#botoni15">2.6 - Настройка
+										клиентской части ПО</a>
+
+									<!-- start level 3 -->
+									<ul class="acnav__list acnav__list--level3">
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni15">2.6.1 -
+												Настройка прав
+												доступа</a>
+										</li>
+
+										<li>
+											<a class="acnav__link acnav__link--level3" href="#botoni16">2.6.2 -
+												Настройка
+												подключений
+												к
+												видеосерверам</a>
+										</li>
+									</ul>
+									<!-- end level 3 -->
+								</li>
+
+
+
+
+							</ul>
+							<!-- end level 2 -->
+						</li>
+						<!-- end group 3 -->
+
+						<!-- start group 4 -->
+						<li class="">
+							<a class="acnav__label" href="#botoni17">3 - Восстановление работоспособности ПО после
+								аварий</a>
+						</li>
+						<!-- end group 4 -->
+
+					</ul>
+					<!-- end level 1 -->
+				</nav>
+				<!-- end accordion nav block -->
+
+			</section>
+			<!-- partial -->
+			<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+			<script src="./script1.js"></script>
+
+		</div>
+		<!-- файлы из другого проекта -->
+
+		<div class="page">
+			<div class="conteni">
+				<div id="botoni1" style="display: block;">
+
+					<h1> Введение</h1>
+					<div class="unit_1">
+						<p>
+							Для того, чтобы облегчить чтение, в предлагаемом руководстве используются следующие
+							соглашения о шрифтах и графических обозначениях:
+						<p><span class="bold">Полужирный</span> – названия систем CVS.</p>
+						<p><span class="bold_curs fst-italic">Полужирный курсив</span> – названия и определения в
+							системах CVS.</p>
+						<p><span class="fst-italic text-decoration-underline">Подчеркнутый курсив</span> – названия
+							элементов управления в программах CVS.</p>
+						<p><span class="text-decoration-underline">Подчеркивание</span> – общепринятые названия или
+							определения.</p>
+						<p><span class="fst-italic">Курсив</span> – названия …</p>
+						<p><span>• – списки и перечисления</span></p>
+						</p>
+						<p> Так же в тексте используются графические обозначения:</p>
+
+						<figure><img src="img/1.png" alt="" class="imgn"></figure>
+						<figcaption>Такой знак обозначает информацию, на которой стоит
+							заострить внимание и учитывать в дальнейшем при работе с
+							системами CVS.</figcaption>
+
+
+						<figure> <img src="img/2.png" alt="" class="imgn"></figure>
+						<figcaption>Такой знак означает замечания или рекомендации, к которым необходимо
+							прислушаться для
+							достижения оптимальной производительности и стабильной работы программно- аппаратных
+							комплексов.</figcaption>
+
+
+						<figure> <img src="img/3.png" alt="" class="imgn"></figure>
+						<figcaption>Такой знак обозначает примечание, на которое следует обратить
+							пристальное внимание!</figcaption>
+
+					</div>
+				</div>
+
+
+				<div id="botoni2">
+
+					<h1>1 Общие положения</h1>
+
+					<figure> <img src="img/1.png" alt="" class="imgnew"> </figure>
+					<figcaption>
+						<p> Системы CVS как с аналоговыми камерами, так и с IP
+							камерами работают под управлением операционных систем
+							семейства Windows (x86, 32 bit и x64, 64 bit):</p>
+						<p><span class="text-decoration-underline">Windows 7</span>,</p>
+						<p><span class="text-decoration-underline">Windows 8</span>, <span
+								class="text-decoration-underline">Windows 8.1</span>,</p>
+						<p><span class="text-decoration-underline">Windows 10</span>,</p>
+						<p><span class="text-decoration-underline">Windows Server 2008</span>, <span
+								class="text-decoration-underline">Windows Server 2008 R2</span>,</p>
+						<p><span class="text-decoration-underline">Windows Server 2012</span>, <span
+								class="text-decoration-underline">Windows Server 2012 R2</span>,</p>
+						<p><span class="text-decoration-underline">Windows Server 2016</span>,</p>
+						<p><span class="text-decoration-underline">Windows Server 2019</span></p>
+					</figcaption>
+
+
+					<figure> <img src="img/1.png" alt="" class="imgnew"></figure>
+
+					<figcaption>
+						<p> Внимание ! </p>
+
+						<p> Все действия должны производиться оператором с административными правами в
+							операционной
+							системе. </p>
+
+						<p> Разработчики систем CVS подразумевают, что у пользователя имеется опыт в
+							администрировании
+							операционных систем Windows. </p>
+					</figcaption>
+
+
+				</div>
+				<div id="botoni3">
+
+					<h1> 2 Алгоритм действий </h1>
+
+					<p>Всё актуальное программное обеспечение систем <span class="bold">CVS</span> находится на
+						сайте cvsnt.ru странице сайта
+						<span class="fst-italic">«Центра загрузки»</span>
+					</p>
+
+					<p><a href="https://www.cvsnt.ru/support_soft.html"> Центр загрузки ПО </a> </p>
+
+					<p> На этой странице имеются ссылки на архивы с программным обеспечением и руководствами для
+						пользователей.</p>
+
+					<p><span class="bold">CVSCenter 7</span> — программный комплекс компьютерных телевизионных
+						систем обеспечения безопасности
+						<span class="bold">CVS ( Computer Video Security )</span> —
+						единое программное обеспечение как для видеосерверов, так
+						и для клиентских рабочих мест.
+					</p>
+
+					<p>Инсталлятор находится в архиве ZIP</p>
+
+					<p><a href="https://www.cvsnt.ru/soft/cvs_v720.zip">Инсталлятор</a></p>
+
+					<p>Для дальнейшей работы необходимо провести инсталляцию (установку) программного обеспечения на
+						компьютере.</p>
+
+					<p>
+					<p>
+						<span class="fst-italic">Видеосервер</span> — на компьютере, к которому будут
+						подключаться камеры,
+						устанавливается комплект программного обеспечения CVSCenter и настраивается
+						серверная часть ПО: подключения к видеокамерам, микрофонам, обработка
+						получаемых медиаданных, запись архивов, поддержка работы клиентских приложений
+						— <span class="bold">CVS Авто</span> или <span class="bold">CVS Авто+</span>, <span
+							class="bold">CVSAutoServer</span>, <span class="bold">CVSMap</span>, <span class="bold">CVS
+							FaceDetector</span>, <span class="bold">CVS Mobile
+							Server</span> и др.
+					</p>
+					<br>
+					<p>
+						<span class="fst-italic">Видеоклиент</span> — на компьютере, который будет подключаться
+						к видеосерверу
+						(видеосерверам), устанавливается комплект программного обеспечения CVSCenter и
+						настраивается клиентская часть ПО: для просмотра и прослушивания медиаданных в
+						режиме онлайн, просмотр и прослушивание ранее записанных архивных данных.
+					</p>
+					</p>
+
+					<figure>
+						<img src="img/3.png" alt="" class="imgn">
+					</figure>
+					<figcaption>Программное обеспечение
+						CVSCenter позволяет на одном ПК
+						одновременно работать как серверной части, так и
+						клиентской.
+					</figcaption>
+				</div>
+
+
+				<div id="botoni4">
+
+					<h1>2.1. Предварительная настройка IP камер</h1>
+
+					<figure> <img src="img/3.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">Необходимо в каждой камере через браузер установить
+						параметры передачи потоков данных.</figcaption>
+
+					<p>Подключаемые камеры должны находиться в той же локальной сети, в которой будет
+						работать один из сетевых интерфейсов видеосервера.
+					</p>
+					<p>Например, у IP камер адрес будет находиться в подсети 192.168.0.0/24.
+					</p>
+					<p>Тогда и на видеосервере необходимо установить для сетевого адаптера IP адрес из подсети
+						192.168.0.0./24 (Рис. 1).
+					</p>
+					<!-- <div class="otstup_4">
+						<p> <img src="img/4.png" class="rounded mx-auto d-block" style="vertical-align: justify"
+								alt="">Рисунок 1: IP адрес компьютера в подсети 192.168.0.0/24.</p>
+					</div> -->
+
+					<!-- <div class="otstup_4 cntr">
+						<figure class="ipv4">
+							<img src="img/4.png">
+							<figcaption>Рисунок 1: IP адрес компьютера в подсети 192.168.0.0/24.</figcaption>
+						</figure>
+					</div> -->
+
+					<center>
+						<img src="img/4.png" width="400" height="455" alt="">
+						<p class="cntr">Рисунок 1: IP адрес компьютера в подсети 192.168.0.0/24</p>
+					</center>
+
+
+					<figure> <img src="img/3.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">
+						На видеосервере для сетевого адаптера должен быть
+						установлен статический IP адрес.
+					</figcaption>
+
+					<p>Либо добавить к существующему IP адресу дополнительный свободный сетевой адрес из
+						диапазона 192.168.0.0/24 (Рис. 2).</p>
+
+					<!-- <div class="otstup_4 cntr">
+						<figure class="ipv4_1">
+							<img src="img/5.png">
+							<figcaption>Рисунок 2: Добавление IP адреса сетевому адаптеру.</figcaption>
+						</figure>
+					</div> -->
+
+					<center>
+						<img src="img/5.png" width="400" height="488" alt="">
+						<p class="cntr">Рисунок 2: Добавление IP адреса сетевому адаптеру</p>
+					</center>
+
+					<p>Далее необходимо проверить доступность IP устройств командой ping (Рис. 3).</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_2">
+									<img src="img/6.png">
+									<figcaption>Рисунок 3: Команда PING проверяет доступность IP устройств в сети.</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/6.png" width="569" height="258" alt="">
+						<p class="cntr">Рисунок 3: Команда PING проверяет доступность IP устройств в сети</p>
+					</center>
+
+					<p>Далее через браузер (IE, Firefox, Chrome, Opera, …) необходимо провести настройку
+						параметров работы IP камеры.</p>
+
+					<div>
+						<ol>
+							<li>
+								В первую очередь, подключившись к камере, необходимо настроить её сетевые
+								параметры: IP адрес, маску и шлюз, если требуется иметь доступ из другой подсети
+								(Рис. 4). У камеры должен быть статический IP адрес.
+							</li>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_2">
+											<img src="img/7.png">
+											<figcaption>Рисунок 4: Настройка сетевых параметров камеры.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/7.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 4: Настройка сетевых параметров камеры</p>
+							</center>
+
+							<li>Далее необходимо настроить или убедиться, что в камере открыты порты для
+								подключения к ней (Рис. 5). В камере должны быть открыты, как минимум, следующие порты:
+							</li>
+							<ul>
+								порт для работы с камерой через браузер — HTTP порт 80
+							</ul>
+							<ul>
+								порт для получения медиаданных (видео, аудио) — RTSP порт 554
+							</ul>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_3">
+											<img src="img/8.png">
+											<figcaption>Рисунок 5: Проверка открытых портов.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/8.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 5: Проверка открытых портов</p>
+							</center>
+
+							<ul>в некоторых камерах для подключения по протоколу ONVIF необходимо открыть
+								отдельный порт — ONVIF порт 8090 (редко встречались порты 8080 или 5080 —
+								необходимо посмотреть в техдокументации на камеру).</ul>
+
+							<li>
+								Далее необходимо настроить время в камере (Рис. 6). Для многокамерных систем
+								рекомендуется в локальной сети настроить отдельный NTP сервер, чтобы все IP
+								устройства имели возможность синхронизировать время от этого NTP сервера, который
+								в свою очередь должен синхронизироваться от доверенного источника точного
+								времени.
+							</li>
+
+							<p>На сайте <span
+									class="text-decoration-underline">https://www.ntp-servers.net/servers.html</span>
+								имеется список серверов, работающих в
+								России.</p>
+
+							<!-- <div class="otstup_4 cntr">
+									<figure class="ipv4_4">
+										<img src="img/9.png">
+										<figcaption>Рисунок 6: Настройка времени в камере.</figcaption>
+									</figure>
+								</div> -->
+
+							<center>
+								<img src="img/9.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 6: Настройка времени в камере</p>
+							</center>
+
+							<li>Далее необходимо добавить пользователей, которые будут иметь возможность
+								работать с камерой (Рис. 7).</li>
+							<p>
+								По умолчанию в новой камере имеется одна запись — Administrator | admin | root .
+								<br>
+								Настоятельно рекомендуем изменить пароль у этого пользователя.
+							</p>
+
+
+							<figure> <img src="img/2.png" alt=""></figure>
+							<figcaption class="mlft">Ни в коем случае не оставляйте пароль у администратора по
+								умолчанию, как в документации.</figcaption>
+
+
+							<figure> <img src="img/3.png" alt=""></figure>
+							<figcaption class="mlft">После изменения пароля у пользователя обязательно
+								сохраните его у себя в надёжном и секретном месте — на
+								случай восстановления работоспособности оборудования.</figcaption>
+
+
+							<p>
+								Далее, добавьте пользователей. Хотя бы одного с административными правами, и ещё одного
+								— с ограниченными правами. После этого перезагрузите камеру и работайте с ней через вами
+								введённые аккаунты.
+							</p>
+
+
+							<figure> <img src="img/3.png" alt=""></figure>
+							<figcaption class="mlft">Не включайте режим анонимного доступа к ресурсам камеры
+								без особой нужды.</figcaption>
+
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_5">
+											<img src="img/10.png">
+											<figcaption>Рисунок 7: Добавление пользователей.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/10.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 7: Добавление пользователей</p>
+							</center>
+
+							<li>Далее включите в камере режим автоматической перезагрузки (Рис. 8), включив в
+								оборудовании внутренний Watch Dog — тем самым вы обезопасите себя от зависания
+								самой камеры.</li>
+
+
+							<figure> <img src="img/2.png" alt=""></figure>
+							<figcaption class="mlft">Периодические сервисные перезагрузки IP оборудования
+								продлевают бесперебойную работу всего комплекса в целом.</figcaption>
+
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_6">
+											<img src="img/11.png">
+											<figcaption>Рисунок 8: Режим самоперезагрузки оборудования.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/11.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 8: Режим самоперезагрузки оборудования</p>
+							</center>
+
+							<li>
+								Далее переходим к настройкам параметров кодирования и режима передачи
+								видеоинформации (Рис. 9).
+							</li>
+
+							<p>
+								Рекомендуется настроить в камере два потока видео:
+							</p>
+
+							<ul>
+								Первый поток ( высокого разрешения; синонимы — основной, главный, поток
+								высокого разрешения) — для возможности детального анализа информации как в
+								режиме онлайн просмотра, так и в архивных записях.
+							</ul>
+
+							<ul>
+								Второй поток ( низкого разрешения; синонимы — дополнительный, контрольный,
+								малый ) — для выполнения сервисных функций
+							</ul>
+							<br>
+
+							<ul class="check">
+								Выбрать режимы кодирования H.264 либо Baseline либо Main profile. Не рекомендуем
+								выбирать режим кодирования High profile — этот режим потребует от принимающей
+								стороны больше вычислительных ресурсов, а в самой камере будет задействовано
+								больше ресурсов, которых может не хватить в критических ситуациях.
+							</ul>
+
+							<ul class="check">
+								Выбрать разрешение в основном потоке, которое позволит вам на экране монитора
+								видеть сцену в приемлемом качестве — самостоятельно контролируйте визуальное
+								изображения на экране. Обычно разрешения Full HD (1920 х1080 пикс) достаточно для
+								анализа информации без особо высоких вычислительных требований к компьютерному
+								оборудованию. Но иногда бывают ситуации, когда разрешение на основном потоке
+								должно быть больше, чем Full HD — в этих случаях рекомендуется обратиться к
+								разработчикам за консультацией для подбора компьютерного оборудования.
+							</ul>
+
+							<ul class="check">
+								Выбрать частоту кадров — для обзорных функций вполне достаточно установить
+								значение в диапазоне 12-25 к/с (FPS). Чем больше кадров, тем живее картинка. Но и
+								выше требования к вычислительным ресурсам компьютера и объёму дисковой памяти
+								для хранения данных.
+							</ul>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_7">
+											<img src="img/12.png">
+											<figcaption>Рисунок 9: Настройка параметров кодирования видеоинформации.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/12.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 9: Настройка параметров кодирования видеоинформации</p>
+							</center>
+
+							<ul class="check">
+								Выбрать тип кодирования — CBR (Constant Bit Rate)– режим основанный на постоянном,
+								непрерывном битрейте - пропускная способность не меняется во время изменения
+								сцены в кадре или VBR (Variable Bit Rate) - режим с переменной скоростью передачи
+								данных, или поток меняется в зависимости от сцены. Для обычных случаев и при
+								хорошем запасе пропускной способности компьютерной сети можно использовать тип
+								VBR. Если в кадре наблюдается постоянное движение, то необходимо выбрать CBR.
+							</ul>
+							<ul class="check">
+								Выбрать качество картинки — для обзорных функций достаточно выбрать среднее либо
+								чуть выше значение, которое позволит проводить анализ ситуации. Максимальное
+								значение параметра устанавливать необходимо только в особых случаях. Например , в
+								системах распознавания лиц, распознавания автомобильных номеров и др. задачах с
+								высокими требованиями к качеству видеоинформации.
+							</ul>
+							<ul class="check">
+								Установить ограничение потока (Bit Rate)— для оптимизации сетевых ресурсов. Для Full
+								HD потоков это значение =4096 кБ/с.
+							</ul>
+							<ul>
+								Установить параметр формирования ключевых кадров в H.264 — GOP size (синонимы:
+								GOV size, I-Frame). Через какое количество «кадров» будет формироваться опорный
+								кадр. Этот параметр необходимо выставить следующим образом : отношение Frame Rate
+								и GOP Size должно быть не больше единицы. По сути это — через какое время будет
+								формироваться ключевой опорный кадр, который позволяет снизить задержку
+								отображения информации на мониторе относительно реальной ситуации. Чем меньше
+								это отношение, тем меньше задержка. Иногда попадаются камеры, в которых этот
+								параметр сразу отображается в секундах (Рис. 10 и 11).
+							</ul>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_8">
+											<img src="img/13.png">
+											<figcaption>Рисунок 10: Параметр «Интервал ключевых кадров».</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/13.png" width="760" height="579" alt="">
+								<p class="cntr">Рисунок 10: Параметр «Интервал ключевых кадров»</p>
+							</center>
+
+							<p>
+								Встречались образцы IP оборудования, где ключевой кадр передавался каждые 2 секунды
+								(Рис. 11). Поэтому при работе с таким оборудованием на экране монитора изображение
+								сцены будет всегда воспроизводится с задержкой в диапазоне 1,5 — 2.2 сек. Этот факт
+								необходимо учитывать при проектировании комплексов с высокими требованиями к
+								минимизации задержки при формировании изображения на экране монитора.
+							</p>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_9">
+											<img src="img/14.png">
+											<figcaption>Рисунок 11: Параметр «Интервал ключевых кадров».</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/14.png" width="539" height="517" alt="">
+								<p class="cntr">Рисунок 11: Параметр «Интервал ключевых кадров»</p>
+							</center>
+
+							<ul class="check">
+								Для второго потока: его необходимо включить и в параметрах необходимо выставить
+								значения по такому же принципу, как и для основного потока. Разрешение на этом
+								потоке обычно выбирают из списка : 382x288 пикс ( CIF ), 640x360 пикс или 640х480 пикс
+								, но не более 720х576 пикс. Для выполнения сервисных функций в ПО CVSCenter
+								высокое разрешение не требуется. Ограничить этот поток до 0,5 — 1,0 Мб/с.
+							</ul>
+
+
+							<figure> <img src="img/2.png" alt=""></figure>
+							<figcaption class="mlft">Если в камере на основном потоке максимальное разрешение
+								не более 720х576 пикс, то второй поток можно не включать.</figcaption>
+
+
+							<li>
+								Далее настраиваются параметры для передачи аудиоинформации (Рис. 12), если в
+								камере (IP кодере) имеется такая возможность.
+							</li>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/15.png">
+											<figcaption>Рисунок 12: Настройка аудиокодека.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/15.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 12: Настройка аудиокодека</p>
+							</center>
+
+							<ul class="check">
+								Необходимо включить аудиокодек.
+							</ul>
+
+							<ul class="check">
+								Выбрать режим кодирования аудиоинформации — программное обеспечение CVS
+								распознает наиболее распространённые режимы кодирования в IP оборудовании: G.711u
+								(Мю-закон — μ-law) и G.711a (А-закон — a-law)
+							</ul>
+
+							<li>
+								Далее можно переходить к настройкам параметров формирования видеоизображения
+								(Рис. 13).
+							</li>
+
+							<p>
+								Если вам не понятны правила, как можно регулировать эти параметры, то лучше
+								оставить всё «по умолчанию» - заводские настройки. Либо обратиться за помощью к
+								опытным специалистам — support@cvsnt.ru .
+							</p>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/16.png">
+											<figcaption>Рисунок 13: Настройка параметров формирования видеоизображения.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/16.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 13: Настройка параметров формирования видеоизображения</p>
+							</center>
+
+							<li>
+								Рекомендуется выполненные настройки в IP оборудовании сохранить (Рис. 14 и 15),
+								чтобы всегда иметь возможность восстановить работоспособность устройства при
+								аварийных ситуациях или скопировать выполненные настройки на другие подобные (!!!)
+								модели.
+							</li>
+
+
+							<figure> <img src="img/3.png" alt=""></figure>
+							<figcaption class="mlft">Нельзя сохраненные настройки одного типа оборудования
+								применять для иных моделей — можно в итоге получить
+								неработающее устройство.</figcaption>
+
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/17.png">
+											<figcaption>Рисунок 14: Сохранение выполненных настроек.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/17.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 14: Сохранение выполненных настроек</p>
+							</center>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/18.png">
+											<figcaption>Рисунок 15: Процесс сохранения выполнен успешно.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/18.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 15: Процесс сохранения выполнен успешно</p>
+							</center>
+
+							<li>
+								Для восстановления работоспособности или применения типовых настроек от подобной
+								камеры выполните импортирование сохранённой конфигурации (Рис. 16 и 17)
+							</li>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/19.png">
+											<figcaption>Рисунок 16: Импортирование настроек.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/19.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 16: Импортирование настроек</p>
+							</center>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/20.png">
+											<figcaption>Рисунок 17: Процесс импортирования завершён успешно.</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/20.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 17: Процесс импортирования завершён успешно</p>
+							</center>
+
+							<li>
+								Для некоторых камер при работе по протоколу ONVIF может потребоваться добавление
+								пользователей (Рис. 18).
+							</li>
+
+							<!-- <div class="otstup_4 cntr">
+										<figure class="ipv4_1">
+											<img src="img/21.png">
+											<figcaption>Рисунок 18: Добавление пользователей для работы по протоколу ONVIF.
+											</figcaption>
+										</figure>
+									</div> -->
+
+							<center>
+								<img src="img/21.png" width="1144" height="760" alt="">
+								<p class="cntr">Рисунок 18: Добавление пользователей для работы по протоколу ONVIF</p>
+							</center>
+
+						</ol>
+					</div>
+
+				</div>
+
+
+
+
+
+				<div id="botoni5">
+
+					<h1> 2.2. Установка комплекта программного обеспечения </h1>
+
+					<p>
+						Перед началом работы компьютерной телевизионной системы CVS необходимо установить
+						программное обеспечение — <span class="bold">CVSCenter 7</span>.
+					</p>
+
+					<p>
+						Всё необходимое ПО находится либо на фирменном DVD диске, который входит в комплект
+						поставки, либо на сайте производителя — компании ООО «Новые Технологии» в разделе
+						<a href="https://www.cvsnt.ru/support_soft.html" class="text-decoration-underline">Центр
+							загрузки</a>.
+					</p>
+
+					<p>
+						После запуска программы установки матобеспечения систем CVS на экране появится
+						диалоговое окно (Рис. 20) — приглашение начать установку <span class="bold">CVSCenter 7</span>,
+						в
+						котором
+						необходимо нажать кнопку <span class="bold"> Да</span>.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/22.png">
+									<figcaption>Рисунок 19: Старт установки ПО CVSCenter.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/22.png" width="456" height="409" alt="">
+						<p class="cntr">Рисунок 19: Старт установки ПО CVSCenter</p>
+					</center>
+
+					<p>
+						Далее начнётся процесс установки программного обеспечения (Рис. 20).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/23.png">
+									<figcaption>Рисунок 20: Установка CVSCenter 7 - приглашение к установке.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/23.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 20: Установка CVSCenter 7 - приглашение к установке</p>
+					</center>
+
+					<p>
+						Далее необходимо принять лицензионное соглашение, прочитав его до конца, и нажать
+						кнопку Далее (Рис. 21).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/24.png">
+									<figcaption>Рисунок 21: Лицензионное соглашение с пользователем.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/24.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 21: Лицензионное соглашение с пользователем</p>
+					</center>
+
+					<p>
+						В следующем окне необходимо выбрать каталог (Рис. 22), где следует разместить комплект
+						программного обеспечения систем CVS.
+					</p>
+
+
+					<figure> <img src="img/3.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">Не рекомендуется устанавливать ПО на диск C:\ , где обычно
+						размещается операционная система Windows.</figcaption>
+
+
+					<p>
+						Рекомендуется устанавливать ПО не на диск C:\ , где размещается операционная система
+						Windows. Например, рекомендуется устанавливать прикладное ПО на диск D:\ или другой.
+					</p>
+
+					<p>
+						Это правило может быть полезным, если по какой-либо причине придётся восстанавливать
+						работоспособность самой операционной системы Windows.
+					</p>
+
+					<p>
+						Всё ПО систем CVS и его настройки сохраняются в одном каталоге с программами и
+						библиотеками. Простое копирование на флеш-память содержимого каталога позволяет в
+						последствии быстро восстановить работоспособность комплекса при не санкционированных
+						действиях злоумышленников или аварийных ситуациях в работе ПК.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/25.png">
+									<figcaption>Рисунок 22: Выбор каталога для установки ПО.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/25.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 22: Выбор каталога для установки ПО</p>
+					</center>
+
+					<p>
+						По умолчанию комплект программного обеспечения CVSCenter 7 устанавливается в каталог
+						@disk:\apps\ CVS_v7 * (Рис. 22).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/26.png">
+									<figcaption>
+										Рисунок 23: Каталог с установленным ПО CVSCenter 7.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/26.png" width="861" height="434" alt="">
+						<p class="cntr">Рисунок 23: Каталог с установленным ПО CVSCenter 7</p>
+					</center>
+
+					<p>
+						После выбора каталога для установки программы в следующем диалоговом окне выбирается
+						тип установки (Рис. 24) — по умолчанию проводится полная установка комплекта
+						матобеспечения (Рис. 25).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/27.png">
+									<figcaption>
+										Рисунок 24: Выбор типа установки.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/27.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 24: Выбор типа установки</p>
+					</center>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/28.png">
+									<figcaption>
+										Рисунок 25: Установка комплекта программного обеспечения.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/28.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 25: Установка комплекта программного обеспечения</p>
+					</center>
+
+					<p>
+						После нажатия на кнопку <span class="text-decoration-underline">Установить</span> (Рис. 25)
+						начнётся
+						процесс копирования файлов в
+						каталог установки (Рис. 26).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/29.png">
+									<figcaption>
+										Рисунок 26: Процесс установки ПО.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/29.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 26: Процесс установки ПО</p>
+					</center>
+
+					<p>
+						В конце процесса копирования файлов на экран будет выведено диалоговое окно о
+						завершении процесса установки (Рис. 27).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/30.png">
+									<figcaption>
+										Рисунок 27: Завершение установки комплекта ПО.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/30.png" width="499" height="387" alt="">
+						<p class="cntr">Рисунок 27: Завершение установки комплекта ПО</p>
+					</center>
+
+					<p>
+						Если в диалоговом окне оставить включённым параметр <span
+							class="fst-italic text-decoration-underline">Просмотр
+							файла README</span> , то после
+						нажатия на кнопку <span class="fst-italic text-decoration-underline">Завершить</span> будет
+						выведено
+						отдельное окно с содержимым файла <span class="fst-italic">
+							readme</span>
+						из каталога установки ПО (Рис. 28).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/31.png">
+									<figcaption>
+										Рисунок 28: Файл readme.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/31.png" width="946" height="644" alt="">
+						<p class="cntr">Рисунок 28: Файл readme</p>
+					</center>
+
+					<figure> <img src="img/3.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">Рекомендуется прочитать содержимое файла readme, т. к. в
+						нём описаны некоторые процедуры по типовым настройкам
+						подключения к IP камерам, процедура получения
+						лицензионного файла для ключа защиты CVS-USBKey и другая
+						полезная информация.</figcaption>
+
+
+
+
+				</div>
+
+				<div id="botoni6">
+
+					<h1> 2.3. Добавление камер в серверную часть комплекса </h1>
+
+					<p>
+						После этапов подготовки IP камер к работе и установки комплекта ПО далее следует этап
+						конфигурирования системы — добавление IP камер для работы с ними в программном
+						обеспечении систем CVS.
+					</p>
+
+					<p>
+						Запустить программу <span class="bold">CVSTestIP</span> (Рис. 29), предназначенную для
+						конфигурирования и
+						тестирования подключений к IP устройствам, и настроить подключения к IP камерам.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/32.png">
+									<figcaption>
+										Рисунок 29: Каталог с программой CVSTestIP.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/32.png" width="863" height="436" alt="">
+						<p class="cntr">Рисунок 29: Каталог с программой CVSTestIP</p>
+					</center>
+
+					<p>
+						Добавить камеру в список (Рис. 30) и протестировать порты (Рис. 31).
+					</p>
+
+					<ul>
+						<ol class="check">Производитель</ol>
+						<ol class="check">Серия/Тип устройства</ol>
+						<ol class="check">IP адрес устройства</ol>
+						<ol class="check">Порты (HTTP | ONVIF и RTSP)</ol>
+						<ol class="check">Пользователь — user (или другой, но с операторскими правами — только не
+							администратор)</ol>
+						<ol class="check">Пароль — пароль пользователя, который был добавлен в камеру (Рис. 7).</ol>
+						<ol class="check">Включить параметр Контроль получения медианных</ol>
+					</ul>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/33.png">
+									<figcaption>
+										Рисунок 30: CVSTestIP — добавление камер.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/33.png" width="1026" height="516" alt="">
+						<p class="cntr">Рисунок 30: CVSTestIP — добавление камер</p>
+					</center>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/34.png">
+									<figcaption>
+										Рисунок 31: Протестировать порты доступа к IP камере.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/34.png" width="465" height="391" alt="">
+						<p class="cntr"> Рисунок 31: Протестировать порты доступа к IP камере</p>
+					</center>
+
+					<p>
+						На закладке <span class="fst-italic text-decoration-underline">Видео / аудио</span>
+						необходимо
+						включить <span class="fst-italic text-decoration-underline">Контрольный видео поток</span>
+						(Рис.
+						32).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/35.png">
+									<figcaption>
+										Рисунок 32: Включить получение контрольного потока.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/35.png" width="465" height="391" alt="">
+						<p class="cntr">Рисунок 32: Включить получение контрольного потока</p>
+					</center>
+
+					<p>
+						Далее провести тестирование подключений к камерам (Рис. 33 и 34).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/36.png">
+									<figcaption>
+										Рисунок 33: Провести тестирование подключений к камерам.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/36.png" width="1026" height="800" alt="">
+						<p class="cntr">Рисунок 33: Провести тестирование подключений к камерам</p>
+					</center>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/37.png">
+									<figcaption>
+										Рисунок 34: Комплексное тестирование всех камер.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/37.png" width="1026" height="331" alt="">
+						<p class="cntr">Рисунок 34: Комплексное тестирование всех камер</p>
+					</center>
+
+					<p>
+						На время пусконаладочных работ (одна — две недели после старта комплекса) рекомендуется
+						включать режим <span class="bold fst-italic text-decoration-underline">Записи служебной
+							информации</span> (Рис. 35), который может помочь отладить
+						работу устройств в компьютерной сети.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/38.png">
+									<figcaption>
+										Рисунок 35: Запись служебной информации.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/38.png" width="335" height="371" alt="">
+						<p class="cntr">Рисунок 35: Запись служебной информации</p>
+					</center>
+
+					<p>
+						Нажать кнопку <span class="bold fst-italic text-decoration-underline">Сохранить всё</span>
+						(Рис. 36)
+						и закрыть программу <span class="bold"> CVSTestIP </span>.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/39.png">
+									<figcaption>
+										Рисунок 36: Сохранить всё.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/39.png" width="1026" height="283" alt="">
+						<p class="cntr">Рисунок 36: Сохранить всё</p>
+					</center>
+
+				</div>
+
+
+				<div id="botoni7">
+
+					<h1>2.4. Настройка подключения датчиков / реле</h1>
+
+					<p>
+						Если необходимо обрабатывать внешние события (датчики, контакты) и / или управлять
+						исполнительными устройствами (шлагбаумы, ворота, светофоры, …), то необходимо провести
+						настройку подключения блоков управления <span class="bold">CVS-DIO </span>/ <span
+							class="bold">CVS-DIO422</span>. Настройка
+						производится в
+						программе <span class="bold">CVSTest-DIO</span>, которая входит в комплект программного
+						обеспечения
+						систем CVS
+						(Рис. 37).
+					</p>
+
+					<!-- 
+							<div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/40.png">
+									<figcaption>
+										Рисунок 37: Каталог с программой CVSTest-DIO.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/40.png" width="863" height="436" alt="">
+						<p class="cntr">Рисунок 37: Каталог с программой CVSTest-DIO</p>
+					</center>
+
+					<p>
+						Запустить программу <span class="bold">CVSTest-DIO</span>, провести конфигурирование устройств
+						<span class="bold">CVS-DIO</span> / <span class="bold">CVS-
+							DIO422</span>.
+					</p>
+					<p>
+						При первом запуске окно программы выглядит, как показано ниже (Рис. 38).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/41.png">
+									<figcaption>
+										Рисунок 38: Окно программы CVSTest-DIO (без устройств).
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/41.png" width="1169" height="706" alt="">
+						<p class="cntr">Рисунок 38: Окно программы CVSTest-DIO (без устройств)</p>
+					</center>
+
+					<p>
+						Если ранее устройства <span class="bold">CVS-DIO</span> / <span class="bold">CVS-DIO422</span>
+						были
+						инициированы и сконфигурированы в
+						системе, то окно программы выглядит, как показано ниже (Рис. 39).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/42.png">
+									<figcaption>
+										Рисунок 39: Окно программы CVSTest-DIO (с устройствами).
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/42.png" width="1169" height="706" alt="">
+						<p class="cntr">Рисунок 39: Окно программы CVSTest-DIO (с устройствами)</p>
+					</center>
+
+					<p>
+						Для поиска оборудования, подключённого к компьютеру необходимо выбрать режим
+						<span class="bold fst-italic text-decoration-underline">Удаление / Поиск</span> (Рис. 40) и
+						провести
+						поиск оборудования.
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/43.png">
+									<figcaption>
+										Рисунок 40: Поиск внешних устройств в системе.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/43.png" width="1169" height="706" alt="">
+						<p class="cntr">Рисунок 40: Поиск внешних устройств в системе</p>
+					</center>
+
+					<p>
+						Результаты поиска оборудования, подключённого к компьютеру, будут показаны в окнах
+						программы (Рис. 41).
+					</p>
+
+					<!-- <div class="otstup_4 cntr">
+								<figure class="ipv4_1">
+									<img src="img/44.png">
+									<figcaption>
+										Рисунок 41: Найдено несколько устройств.
+									</figcaption>
+								</figure>
+							</div> -->
+
+					<center>
+						<img src="img/44.png" width="1169" height="706" alt="">
+						<p class="cntr">Рисунок 41: Найдено несколько устройств</p>
+					</center>
+
+					<p>
+						Далее необходимо протестировать работу устройств — режим <span
+							class="bold fst-italic text-decoration-underline">Тест</span> (Рис. 42).
+					</p>
+
+					<!-- <div class="image-container-45">
+								<img src="img/45.png">
+								 <figure class="ipv4_1">
+									<img src="img/45.png">
+									<figcaption>
+										Рисунок 42: Тестирование контактов и реле.
+									</figcaption>
+								</figure> 
+							</div> -->
+
+					<center>
+						<img src="img/45.png" width="1169" height="706" alt="">
+						<p class="cntr">Рисунок 42: Тестирование контактов и реле</p>
+					</center>
+
+					<p>
+						Программа постоянно опрашивает входы и выходы и отображает их текущее состояние
+						соответствующим цветом:
+					</p>
+
+					<ul>
+						<ol>синий цвет — контакт разомкнут,</ol>
+						<ol>голубой — контакт замкнут.</ol>
+					</ul>
+
+					<p>
+						Проверка входов осуществляется физическим замыканием/размыканием входного
+						контакта на устройстве и визуальным контролем за его изменением в окне программы.
+					</p>
+
+					<p>
+						Проверка выходов(контактов реле) осуществляется нажатием кнопки <span class="bold"> Т (Тест)
+						</span>
+						под соответствующим выходом. Кроме визуального контроля за состоянием выхода после
+						нажатия кнопки Т, необходимо проверить электрическую цепь при помощи прибора
+						мультиметр.
+					</p>
+
+					<p align="justify">
+						Повторное нажатие кнопки <span class="bold">Т</span> переводит контакты реле в обратное
+						состояние.
+					</p>
+
+
+					<figure><img src="img/1.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">При работе с программой <span class="bold">CVSTest-DIO</span> необходимо
+						убедиться,
+						что другие программы не работают с COM портами, к которым
+						подключены блоки <span class="bold">CVS-DIO</span> | <span class="bold">CVS-DIO422</span>.
+					</figcaption>
+
+
+
+					<figure><img src="img/1.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">
+						Нельзя допускать одновременной работы <span class="bold">CVSCenter</span> и
+						<span class="bold">CVSTest-DIO</span>.
+						С устройствами может работать только одна программа.
+					</figcaption>
+
+				</div>
+
+
+				<div id="botoni8">
+
+					<h1>2.5. Настройка серверной части CVSCenter</h1>
+
+					<h2> 2.5.1. Лицензионные файлы для ключа защиты</h2>
+
+					<p>
+						Перед первым стартом <span class="bold">CVSCenter</span> необходимо запросить лицензионные файлы
+						—
+						необходимо
+						выслать серийный номер ключа <span class="bold">CVS-USBKey</span> (Рис. 43) на электронную почту
+						<span class="text-decoration-underline">cvsnt@cvsnt.ru</span> —
+						подробности процесса получения лицензионных файлов описаны в паспорте на ключ или в
+						файле <span class="fst-italic">readme</span> (Рис. 28).
+					</p>
+
+					<center>
+						<img src="img/46.png" width="835" height="489" alt="">
+						<p class="cntr">Рисунок 43: Ключ CVS-USBKey</p>
+					</center>
+
+					<p>
+						Ключ необходимо установить в свободном USB разъёме. По возможности — внутри системного
+						корпуса компьютера.
+					</p>
+
+					<p>
+						В операционной системе Windows ключ устанавливается автоматически и находится в классе
+						<span class="text-decoration-underline">Устройства HID</span> (Рис. 44).
+					</p>
+
+					<p>
+						Постоянно включённый светодиод (светится красным цветом) сигнализирует, что ключ готов
+						к работе, программа CVSCenter не загружена в операционной системе.
+					</p>
+
+					<center>
+						<img src="img/47.png" width="781" height="572" alt="">
+						<p class="cntr">Рисунок 44: Ключ CVS-USBKey в диспетчере устройств</p>
+					</center>
+
+					<p>
+						Файлы с Лицензионными разрешениями, полученные по электронной почте, размещаются в
+						каталоге LIC (Рис. 45).
+					</p>
+
+					<center>
+						<img src="img/48.png" width="876" height="338" alt="">
+						<p class="cntr">Рисунок 45: Каталог с лицензионными файлами</p>
+					</center>
+
+					<p>
+						Далее можно запустить серверную часть ПО <span class="bold">CVSCenter 7</span> (Рис. 46) и
+						настроить
+						параметры
+						работы комплекса.
+					</p>
+
+					<center>
+						<img src="img/49.png" width="863" height="436" alt="">
+						<p class="cntr">Рисунок 46: Каталог с программой CVSCenter</p>
+					</center>
+
+					<p>
+						В первые пять минут после старта программа <span class="bold">CVSCenter</span> должна показать в
+						оперативном протоколе, что ключ <span class="bold">CVS-USBKey</span> определился и с ним можно
+						работать (Рис. 47).
+					</p>
+
+					<p>
+						При нормальной работе светодиод на ключе загорается один раз в две секунды — <span
+							class="fst-italic">мигает</span>.
+					</p>
+
+					<center>
+						<img src="img/50.png" width="1646" height="525" alt="">
+						<p class="cntr">Рисунок 47: Ключ был идентифицирован программой</p>
+					</center>
+
+					<p>
+						Набор лицензий можно увидеть в диалоговом окне <span
+							class="bold fst-italic text-decoration-underline">Параметры
+							системы</span> (Рис. 48) в
+						закладке <span class="bold fst-italic text-decoration-underline">О программе</span>.
+					</p>
+
+					<center>
+						<img src="img/51.png" width="456" height="728" alt="">
+						<p class="cntr">Рисунок 48: Лицензии на использование программ CVS</p>
+					</center>
+
+					<p>
+						Основное окно программы <span class="bold">CVSCenter 7</span> представлено ниже (Рис. 49).
+					</p>
+
+					<center>
+						<img src="img/52.png" width="1584" height="996" alt="">
+						<p class="cntr">Рисунок 49: Основное окно CVSCenter 7</p>
+					</center>
+
+					<p>
+						Далее необходимо провести настройку основных параметров работы программы :
+					<ul>
+						<li>
+							архив медиаданных (видео и аудио информация, поступающая от IP устройств),
+						</li>
+
+						<li>
+							режимы работы камер — запись, детекторы,
+						</li>
+						<li>
+							сценарии работы ПО по событиям, возникающим в процессе работы системы.
+						</li>
+					</ul>
+					</p>
+
+
+				</div>
+
+				<div id="botoni9">
+
+					<h1>2.5.2. Создание архива </h1>
+
+					<p>
+						Для создания архива данных необходимо зайти в режим <span
+							class="bold fst-italic text-decoration-underline">Настройка</span> и нажать кнопку <span
+							class="bold fst-italic text-decoration-underline">Архив</span>
+						(Рис. 50).
+					</p>
+
+					<p>
+						На закладке <span class="bold fst-italic text-decoration-underline">Основной архив</span>
+						выбрать
+						диск, <span class="bold fst-italic text-decoration-underline">Добавить файлы</span> архива
+						(тома).
+					</p>
+
+					<p>
+						Рекомендуется в корневом каталоге диска создать каталог <span class="fst-italic">Arc</span> (или
+						<span class="fst-italic">Video</span>) и уже в нём
+						распределять пространство под архивы.
+					</p>
+
+					<center>
+						<img src="img/53.png" width="731" height="718" alt="">
+						<p class="cntr">Рисунок 50: Создать основной архив</p>
+					</center>
+
+					<p>
+						Минимальное количество файлов-томов в системе — 5 шт.
+					</p>
+
+					<p>
+						Программа позволяет добавлять тома архива на разных дисках. В том числе на сетевых
+						ресурсах.
+						Важно, чтобы эти диски были доступны программе для записи и чтения данных всегда.
+					</p>
+
+					<p>
+						Более подробно см. документ «Рекомендации по настройке Windows» — находится в каталоге
+						<span>@disk:\apps\CVS_v7\Doc\*</span> (Рис. 51).
+					</p>
+
+
+
+					<center>
+						<img src="img/54.png" width="824" height="730" alt="">
+						<p class="cntr">Рисунок 51: Каталог с документацией</p>
+					</center>
+
+				</div>
+
+				<div id="botoni10">
+
+					<h1>2.5.3. Настройка параметров работы камер</h1>
+
+					<p>
+						Далее необходимо настроить режимы работы камер на закладке <span
+							class="bold fst-italic text-decoration-underline">Состояние</span> (Рис. 52).
+					</p>
+
+					<p>
+						Необходимо обязательно установить следующие параметры:
+					<ul>
+						<li><span class="bold fst-italic text-decoration-underline">Обработка</span> — позволяет
+							оптимально
+							расходовать вычислительные ресурсы процессора
+							(требуется включение контрольного потока на камерах).</li>
+						<li>
+							<span class="bold fst-italic text-decoration-underline">Высокий приоритет</span> — параметр
+							отвечает за декодирование потока данных H.264 в
+							режиме «на лету».
+						</li>
+					</ul>
+					</p>
+
+					<p>
+						Остальные параметры — «под задачу»:
+					<ul>
+						<li><span class="bold fst-italic text-decoration-underline">Обработка & CVS</span> — полное
+							декодирование основного видеопотока от камеры
+							(максимальная загрузка процессора !!!).</li>
+						<li><span class="bold fst-italic text-decoration-underline">Активность & Чувствительность</span>
+							—
+							позволяют оптимизировать ресурсы
+							(оперативная память, дисковая память, сетевые коммуникации).</li>
+						<li><span class="bold fst-italic text-decoration-underline">Движение</span> — позволяет
+							оптимизировать ресурсы при передаче данных по компьютерной
+							сети (требуется настройка зон детектирования движения — закладка <span
+								class="bold fst-italic text-decoration-underline">Детекторы</span>).</li>
+						<li><span class="bold fst-italic text-decoration-underline">Кольцевой буфер</span> — позволяет
+							оптимально провести настройку режимов записи данных.</li>
+						<li><span class="bold fst-italic text-decoration-underline">CVSAuto</span> — параметр отвечает
+							за
+							передачу в клиентское приложение распознавания
+							автомобильных номеров специальных данных, необходимых для работы системы
+							распознавания ГРНЗ ТС (время кадра, формируемого в самой камере)</li>
+					</ul>
+					</p>
+
+					<center>
+						<img src="img/55.png" width="1067" height="739" alt="">
+						<p class="cntr">Рисунок 52: Типовая настройка камер</p>
+					</center>
+
+					<figure> <img src="img/2.png" alt="" class="imgn"></figure>
+					<figcaption class="mlft">Некоторые параметры, например <span
+							class="bold fst-italic text-decoration-underline">Обработка
+							& CVS</span>, требуют
+						для работы повышенной вычислительной мощности CPU.</figcaption>
+
+
+				</div>
+
+				<div id="botoni11">
+
+					<h1>2.5.4 Настройка параметров записи данных</h1>
+
+					<p>
+						Далее настроить режимы записи видеоданных на закладке <span
+							class="bold fst-italic text-decoration-underline">Запись</span> (Рис. 53).
+
+					<ul>
+						<li><span class="bold fst-italic text-decoration-underline">Постоянная</span> — запись основного
+							потока — либо с тем темпом, что настроили в камере,
+							либо по событиям, по активности, по сценарию.</li>
+						<li><span class="bold fst-italic text-decoration-underline">Контрольная</span> — запись
+							контрольного
+							потока (всегда).</li>
+						<li><span class="bold fst-italic text-decoration-underline">Запись по детектору с
+								историей</span> —
+							запись событий с пред- и пост- историей,
+							указывается временной интервад. Обычно 3 — 5 сек достаточно.</li>
+						<li><span class="bold fst-italic text-decoration-underline">Запись по детектору</span> — запись
+							событий по настроенному детектору движения.</li>
+					</ul>
+					</p>
+
+					<p>
+						Кнопка <span class="bold fst-italic text-decoration-underline">Применить ко всем</span>
+						позволяет
+						применить настройки сразу ко всем камерам на
+						сервере.
+					</p>
+
+					<center>
+						<img src="img/56.png" width="1008" height="739" alt="">
+						<p class="cntr">Рисунок 53: Настройка режимов записи</p>
+					</center>
+
+					<p>
+						Если в камере настроен аудиоканал, то на закладке <span
+							class="bold fst-italic text-decoration-underline">Аудио</span> необходимо провести настройку
+						режимов записи (Рис. 54).
+					</p>
+
+					<center>
+						<img src="img/57.png" width="1022" height="745" alt="">
+						<p class="cntr">Рисунок 54: Запись аудиоданных</p>
+					</center>
+
+				</div>
+
+				<div id="botoni12">
+					<h1>2.5.5 Настройка детекторов движения </h1>
+
+					<p>
+						Далее ( если это требуется ) необходимо провести настройку детектирования движения в
+						кадре (Рис. 55).
+					</p>
+
+					<center>
+						<img src="img/58.png" width="1230" height="808" alt="">
+						<p class="cntr">Рисунок 55: Настройка детекторов движения</p>
+					</center>
+
+					<p>
+						Программное обеспечение <span class="bold">CVSCenter</span> в поле зрения одной камеры позволяет
+						настроить до 16
+						зон с индивидуальными настройками (форма, размер объекта), в том числе пересекающиеся
+						(Рис. 56).
+					</p>
+
+					<center>
+						<img src="img/59.png" width="1008" height="739" alt="">
+						<p class="cntr">Рисунок 56: Настройка детекторов движения</p>
+					</center>
+				</div>
+
+				<div id="botoni13">
+
+					<h1>2.5.6 Настройка работы по сценарию</h1>
+
+					<p>
+						Если требуется управление исполнительными устройствами (шлагбаумы, ворота, светофоры
+						и др.), то необходимо настроить сценарии поведения комплекса на события, генерируемые в
+						процессе работы — кнопка <span class="bold fst-italic text-decoration-underline">Сценарий</span>
+						в
+						диалоговом окне <span class="bold fst-italic text-decoration-underline">Параметры
+							камер</span> (Рис. 57).
+					</p>
+
+					<center>
+						<img src="img/60.png" width="1008" height="739" alt="">
+						<p class="cntr"> Рисунок 57: Параметры камер > Сценарий</p>
+					</center>
+
+					<p>
+						<span class="bold">CVSCenter</span> предоставляет инструментарий,
+						который позволяет настроить работу комплекса
+						под различные события (Рис. 58).
+					</p>
+
+					<center>
+						<img src="img/61.png" width="1214" height="754" alt="">
+						<p class="cntr">Рисунок 58: Настройка сценария: событие - реакция</p>
+					</center>
+
+				</div>
+
+				<div id="botoni14">
+
+					<h1>2.5.7 Настройка окна наблюдения </h1>
+
+					<p>
+						Далее необходимо проверить работу камер в окне наблюдения (Рис. 59) и при необходимости
+						настроить наборы камер для просмотра в режиме онлайн.
+					</p>
+
+					<center>
+						<img src="img/62.png" width="1584" height="996" alt="">
+						<p class="cntr">Рисунок 59: Окно наблюдения</p>
+					</center>
+
+					<p>
+						Более подробная инструкция по работе с программой доступна в документе «Руководство
+						пользователя CVSCenter».
+					</p>
+
+				</div>
+
+				<div id="botoni15">
+					<h1>2.6. Настройка клиентской части ПО </h1>
+
+					<p>
+						Если на рабочем месте, куда было установлено программное обеспечение требуется
+						выводить медиаинфомацию от камер с других видеосерверов, то необходимо провести
+						настройку прав доступа и сетевых подключений к этим серверам.
+					</p>
+
+					<h2> 2.6.1 Настройка прав доступа </h2>
+
+					<p>
+						Чтобы иметь возможность просмотра видеокамер на рабочем месте , необходимо у
+						администратора комплекса запросить пароль для доступа к информации в системах CVS и
+						ввести его в настройках Доступа (Рис. 60)
+					</p>
+
+					<center>
+						<img src="img/63.png" width="695" height="454" alt="">
+						<p class="cntr">Рисунок 60: Настройка доступа</p>
+					</center>
+				</div>
+
+				<div id="botoni16">
+					<h1>2.6.2 Настройка подключений к видеосерверам </h1>
+
+					<p>
+						Чтобы получать информацию с видеокамер, подключённых к видеосерверам, необходимо
+						провести настройку подключений к ним. Перейдите в режим <span
+							class="bold fst-italic text-decoration-underline">Настройка</span>. Далее нажмите
+						кнопку <span class="bold fst-italic text-decoration-underline">Сеть</span> — на экране появится
+						диалоговое окно для редактирования сетевых
+						подключений (Рис. 61).
+					</p>
+
+					<p>
+						В соответствующих полях необходимо ввести IP адреса серверов и нажать кнопку <span
+							class="bold fst-italic text-decoration-underline">Добавить</span>.
+					</p>
+
+					<center>
+						<img src="img/64.png" width="1820" height="946" alt="">
+						<p class="cntr">Рисунок 61: Настройка подключений к видеосерверам</p>
+					</center>
+
+					<p>
+						Более подробная инструкция по работе с программой доступна в документе «Руководство
+						пользователя CVSCenter», который находится в каталоге DOC после установки комплекта
+						математического обеспечения систем CVS.
+					</p>
+				</div>
+
+				<div id="botoni17">
+					<h1>3 Восстановление работоспособности ПО после аварий</h1>
+
+					<p>
+						Чтобы сохранить все произведенные ранее настройки, рекомендуется выполнить следующие
+						действия (при выключенном программном обеспечении CVS):
+					<ul>
+						<li>
+							Создать копию каталога <span class="bold fst-italic">Configs</span> — программ <span
+								class="bold">CVSCenter
+								7</span> сохраняет все параметры в
+							каталоге <span class="bold fst-italic">Configs</span>.
+						</li>
+
+						<li>
+							Сохранить созданную копию в другом месте. Из каталога <span
+								class="bold fst-italic">Configs</span> можно
+							удалить
+							индексные файлы (<span class="bold"> .cfg_indx*</span> ). Эти файлы будут созданы при
+							следующем
+							старте программы с этими сохранёнными параметрами.
+						</li>
+					</ul>
+					</p>
+
+					<center>
+						<img src="img/65.png" width="824" height="432" alt="">
+						<p class="cntr">Рисунок 62: Сохранение копии каталога Configs</p>
+					</center>
+
+					<p>
+						Если произошла аварийная ситуация (вышел из строя диск, были повреждены настройки
+						программы и проч.), то необходимо выполнить следующие действия:
+					<ol>
+						<li>Остановить программу <span class="bold">CVSCenter</span>.</li>
+						<li>Скопировать ранее сохранённый каталог <span class="bold fst-italic">Configs</span> , заменив
+							всё
+							содержимое
+							повреждённой конфигурации.</li>
+						<li>Запустить программу <span class="bold">CVSTestIP</span> — убедиться, что все настройки
+							подключений к камерам
+							восстановлены.</li>
+						<li>Запустить программу <span class="bold">CVSTest-DIO</span> — убедиться, что все настройки
+							подключений к
+							блокам <span class="bold">CVS-DIO | CVS-DIO422</span> восстановлены.</li>
+						<li>Запустить программу <span class="bold">CVSCenter</span> — убедиться, что все настройки
+							комплекса
+							восстановлены.</li>
+					</ol>
+					</p>
+
+					<p>
+						При любый непонятных ситуациях в работе программного обеспечения CVS просим
+						обращаться в службу технической поддержки компании ООО «Новые Технологии»
+						support@cvsnt.ru
+					</p>
+
+					<p class="cntr">
+						Мы будем благодарны за замечания и предложения
+						по данному комплекту документации.
+					</p>
+
+					<p class="cntr">
+						Все замечания и предложения можете присылать на почтовый ящик
+						cvsnt@cvsnt.ru.
+					</p>
+
+				</div>
+
+			</div>
+		</div><!---cerramos---->
+
+		<!-- Bootstrap scripts -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"></script>
+		<!-- Scripts -->
+		<script src="/assets/js/snackbar.js"></script>
+
+		<!-- partial -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+		<script src="./script.js"></script>
+	</div>
+
+</body>
+
+</html>

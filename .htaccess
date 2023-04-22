@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+
+RemoveHandler .html .htm
+AddType  application/x-httpd-php         .php
+AddType  application/x-httpd-php .phps .php .htm .html .phtml
+AddHandler cgi-script .html .htm
+
+
+

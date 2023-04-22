@@ -1,0 +1,100 @@
+файл chats.php 
+37 строка
+удалил bg-light из <nav class="navbar navbar-expand-lg navbar-light  site-header">
+38 строка
+ <a class="navbar-brand" href="#">Wassup</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+37 строка
+удалил
+
+ 
+  <header class="site-header">
+
+
+  <div class="wrapper site-header__wrapper">
+  <div class="site-header__start">
+    <a href="index.html" class="brand"> <img src="img/logo_cvs.svg" width="240px" border="0" alt="Новые Технологии :: Системы CVS (Computer Video Security)" align="left"></a>
+  </div>
+  <div class="site-header__middle">
+    <nav class="nav">
+      <button class="nav__toggle" aria-expanded="false" type="button">
+        menu
+      </button>
+      <ul class="nav__wrapper">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#">About</a></li>
+        <li class="nav__item"><a href="#">Services</a></li>
+        <li class="nav__item"><a href="#">Hire us</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+        <li class="nav__item">
+        <a class="nav-link" href="./logout.php">Logout</a>
+      </li>
+      <?php
+        $getUser = "SELECT * FROM users WHERE email = '$email'";
+        $getUserStatus = mysqli_query($conn,$getUser) or die(mysqli_error($conn));
+        $getUserRow = mysqli_fetch_assoc($getUserStatus);
+      ?>
+      <li class = "nav__item">
+        <img src="./dp/<?=$getUserRow['dp']?>" alt="Profile image" width = "40" class = "dropdown"/>
+      </li>
+      </ul>
+    </nav>
+  </div>
+
+</div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item">
+        <a class="nav-link" href="./logout.php">Logout</a>
+      </li>
+      <?php
+        $getUser = "SELECT * FROM users WHERE email = '$email'";
+        $getUserStatus = mysqli_query($conn,$getUser) or die(mysqli_error($conn));
+        $getUserRow = mysqli_fetch_assoc($getUserStatus);
+      ?>
+      <li class = "nav-item">
+        <img src="./dp/<?=$getUserRow['dp']?>" alt="Profile image" width = "40" class = "dropdown"/>
+      </li>
+  </div>
+
+
+</header>
+
+58 строка 
+  <div class="site-header__end">
+    <a class="button" href="main.php">Sign in</a>
+  </div>
+
+65 строка
+      <li class="nav-item active">
+        <a class="nav-link" href="./chats.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+переменный - sql - 	sql mode
+ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+
+файл message.php 
+40 строка
+удалил bg-light из <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+61 строка
+  <a class="navbar-brand" href="#">Wassup</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+
+
+
+
+
+
+ background-image: url(../images/chat_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
